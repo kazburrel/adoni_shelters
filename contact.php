@@ -1,8 +1,17 @@
+<php
+if(isset($_GET['message']) && !empty($_GET['message'])){
+
+$msg = $_GET['message'];
+}
+
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 
-    <!-- Mirrored from tunatheme.com/tf/html/quarter-preview/quarter/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Aug 2022 12:38:48 GMT -->
+    <!-- Mirrored from tunatheme.com/tf/html/quarter-preview/quarter/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Aug 2022 12:38:48 GMT -->
 
     <head>
         <meta charset="utf-8">
@@ -44,7 +53,7 @@
                                 <div class="ltn__top-bar-menu">
                                     <ul>
                                         <li><a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i class="icon-mail"></i> info@webmail.com</a></li>
-                                        <li><a href="locations.html"><i class="icon-placeholder"></i> 13 Umuawulu Street, Independence Layout, Enugu State</a></li>
+                                        <li><a href="locations.php"><i class="icon-placeholder"></i> 13 Umuawulu Street, Independence Layout, Enugu State</a></li>
                                         <li><a href="tel:+2348036605924"><i class="icon-phone-call"></i>+2348036605924</a></li>
                                         <li><a class="fs-5" href="#"><i class=""></i>RC: 1772447</a></li>
                                     </ul>
@@ -54,9 +63,7 @@
                                 <div class="top-bar-right text-end">
                                     <div class="ltn__top-bar-menu p-2">
                                         <ul>
-                                            <li class="d-none">
 
-                                            </li>
                                             <li>
                                                 <!-- ltn__social-media -->
                                                 <div class="ltn__social-media">
@@ -85,7 +92,7 @@
                             <div class="col">
                                 <div class="site-logo-wrap">
                                     <div class="site-logo">
-                                        <a href="index.html"><img src="img/PHOTO-2022-08-29-15-05-28.jpg" alt="Logo" width="100"></a>
+                                        <a href="index.php"><img src="img/PHOTO-2022-08-29-15-05-28.jpg" alt="Logo" width="100"></a>
                                     </div>
                                     <div class="get-support clearfix d-none">
                                         <div class="get-support-icon">
@@ -104,19 +111,19 @@
                                         <div class="ltn__main-menu">
                                             <ul>
                                                 <li class="">
-                                                    <a href="index.html">Home</a>
+                                                    <a href="index.php">Home</a>
                                                 </li>
                                                 <li>
-                                                    <a href="portfolio.html">Portfolio</a>
+                                                    <a href="portfolio.php">Portfolio</a>
                                                 </li>
                                                 <li>
-                                                    <a href="about.html">About</a>
+                                                    <a href="about.php">About</a>
                                                 </li>
                                                 <li>
-                                                    <a href="service.html">Services</a>
+                                                    <a href="service.php">Services</a>
                                                 </li>
                                                 <li>
-                                                    <a href="contact.html">Contact</a>
+                                                    <a href="contact.php">Contact</a>
                                                 </li>
 
                                             </ul>
@@ -148,7 +155,7 @@
                 <div class="ltn__utilize-menu-inner ltn__scrollbar">
                     <div class="ltn__utilize-menu-head">
                         <div class="site-logo">
-                            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                            <a href="index.php"><img src="img/logo.png" alt="Logo"></a>
                         </div>
                         <button class="ltn__utilize-close">×</button>
                     </div>
@@ -156,19 +163,19 @@
                     <div class="ltn__utilize-menu">
                         <ul>
                             <li class="">
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
-                                <a href="portfolio.html">Portfolio</a>
+                                <a href="portfolio.php">Portfolio</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about.php">About</a>
                             </li>
                             <li>
-                                <a href="service.html">Services</a>
+                                <a href="service.php">Services</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
 
                         </ul>
@@ -194,11 +201,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="ltn__breadcrumb-inner">
-                                <h1 class="page-title">Our Portfolio</h1>
+                                <h1 class="page-title">Contact Us</h1>
                                 <div class="ltn__breadcrumb-list">
                                     <ul>
-                                        <li><a href="index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
-                                        <li>Portfolio</li>
+                                        <li><a href="index.php"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
+                                        <li>Contact</li>
                                     </ul>
                                 </div>
                             </div>
@@ -208,274 +215,108 @@
             </div>
             <!-- BREADCRUMB AREA END -->
 
-            <!-- Gallery area start -->
-            <div class="ltn__gallery-area mb-120">
+            <!-- CONTACT ADDRESS AREA START -->
+            <div class="ltn__contact-address-area mb-90">
                 <div class="container">
-
-                    <!-- Portfolio Wrapper Start -->
-                    <!-- (ltn__gallery-info-hide) Class for 'ltn__gallery-item-info' not showing -->
-                    <div class="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
-                        <div class="ltn__gallery-sizer col-1"></div>
-
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
-                            <div class="ltn__gallery-item-inner">
-                                <div class="">
-                                    <!-- <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection"> -->
-                                    <img src="img/gallery/1.jpg" alt="Image">
-                                    <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-search"></i> -->
-                                    <!-- </span> -->
-                                    <!-- </a> -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
+                                <div class="ltn__contact-address-icon">
+                                    <img src="img/icons/10.png" alt="Icon Image">
                                 </div>
-                                <!-- <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Portfolio Link </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div> -->
+                                <h3>Email Address</h3>
+                                <p>info@adonisshelters.com <br> adonis1shelters@gmail.com
+                                </p>
                             </div>
                         </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_2 col-lg-4 col-sm-6 col-12">
-                            <div class="ltn__gallery-item-inner">
-                                <div>
-                                    <!-- class="ltn__gallery-item-img" -->
-                                    <!-- <a href="#ltn__inline_description_1" data-rel="lightcase:myCollection"> -->
-                                    <img src="img/gallery/2.jpg" alt="Image">
-                                    <!-- <span class="ltn__gallery-action-icon"> -->
-                                    <!-- <i class="far fa-file-alt"></i> -->
-                                    <!-- </span> -->
-                                    <!-- </a> -->
+                        <div class="col-lg-4">
+                            <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
+                                <div class="ltn__contact-address-icon">
+                                    <img src="img/icons/11.png" alt="Icon Image">
                                 </div>
-                                <!-- <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Inline Description </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div> -->
+                                <h3>Phone Number</h3>
+                                <p class="">+2348036605924</p>
                             </div>
                         </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12">
-                            <div class="ltn__gallery-item-inner">
-                                <!-- <div class="ltn__gallery-item-img"> -->
-                                <!-- <a href="http://www.youtube.com/embed/6v2L2UGZJAM?version=3" data-rel="lightcase:myCollection"> -->
-                                <img src="img/gallery/3.jpg" alt="Image">
-                                <!-- <span class="ltn__gallery-action-icon"> -->
-                                <!-- <i class="fab fa-youtube"></i> -->
-                                <!-- </span> -->
-                                <!-- </a>
+                        <div class="col-lg-4">
+                            <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
+                                <div class="ltn__contact-address-icon">
+                                    <img src="img/icons/12.png" alt="Icon Image">
                                 </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Youtube Video </a></h4>
-                                    <p>Web Design & Development</p>
-                                </div> -->
+                                <h3>Office Address</h3>
+                                <p> 13 Umuawulu Street, Independence Layout, Enugu State</p>
                             </div>
-                        </div>
-                        <!-- gallery-item -->
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_2 col-lg-4 col-sm-6 col-12">
-                            <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="media/1.mp4" data-rel="lightcase:myCollection">
-                                        <img src="img/WhatsApp Image 2022-09-10 at 5.34.06 PM.jpeg" alt="Image">
-                                        <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-video"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">HTML5 Video </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ltn__gallery-item filter_category_2 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="media/1.mp4" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/5.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-video"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">HTML5 Video </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12">
-                            <div class="ltn__gallery-item-inner">
-                                <!-- <div class="ltn__gallery-item-img">
-                                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1575.9076122223137!2d144.96590401578402!3d-37.81779982944919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b6af832249%3A0xe39e415e49a7c44e!2sFlinders%20Street%20Railway%20Station!5e0!3m2!1sen!2sbd!4v1598113544515!5m2!1sen!2sbd"
-                                        data-rel="lightcase:myCollection"> -->
-                                <img src="img/gallery/6.jpg" alt="Image">
-                                <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Google Map </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div> -->
-                            </div>
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection" data-bs-lc-caption="Your caption Here"> -->
-                            <img src="img/gallery/7.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fab fa-acquisitions-incorporated"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Image Caption </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_2 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/no-image.html" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/8.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-not-equal"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Not Found</a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/9.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Portfolio Link </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_3 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/10.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Portfolio Link </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_2 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/1.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Portfolio Link </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- gallery-item -->
-                        <div class="ltn__gallery-item filter_category_1 col-lg-4 col-sm-6 col-12">
-                            <!-- <div class="ltn__gallery-item-inner">
-                                <div class="ltn__gallery-item-img">
-                                    <a href="img/gallery/1.jpg" data-rel="lightcase:myCollection"> -->
-                            <img src="img/gallery/2.jpg" alt="Image">
-                            <!-- <span class="ltn__gallery-action-icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                    </a>
-                                </div>
-                                <div class="ltn__gallery-item-info">
-                                    <h4><a href="portfolio-details.html">Portfolio Link </a></h4>
-                                    <p>Web Design & Development, Branding</p>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
-
-                    <!-- <div id="ltn__inline_description_1" style="display: none;">
-                        <h4 class="first">This content comes from a hidden element on that page</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec
-                            at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor.</p>
-                        <p>Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc,
-                            molestie vitae eleifend vel.</p>
-                    </div>
-
-                    <div class="btn-wrapper text-center">
-                        <a href="#" class="btn btn-transparent btn-effect-3 btn-border">LOAD MORE +</a>
-                    </div> -->
-
                 </div>
             </div>
-            <!-- Gallery area end -->
+            <!-- CONTACT ADDRESS AREA END -->
 
-            <!-- CALL TO ACTION START (call-to-action-4) -->
-            <div class="ltn__call-to-action-area ltn__call-to-action-4 bg-image pt-115 pb-120 mb-4" data-bs-bg="img/bg/6.jpg">
+            <!-- CONTACT MESSAGE AREA START -->
+            <div class="ltn__contact-message-area mb-120 mb--100">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="call-to-action-inner call-to-action-inner-4 text-center">
-                                <div class="section-title-area ltn__section-title-2">
-                                    <h6 class="section-subtitle ltn__secondary-color">// any question you have //</h6>
-                                    <h1 class="section-title white-color">+2348036605924</h1>
-                                </div>
-                                <div class="btn-wrapper">
-                                    <a href="tel:+2348036605924" class="theme-btn-1 btn btn-effect-1">MAKE A CALL</a>
-                                    <a href="contact.html" class="btn btn-transparent btn-effect-3 white-color">CONTACT US</a>
-                                </div>
+                            <div class="ltn__form-box contact-form-box box-shadow white-bg">
+                                <?php  if(isset($msg) &&!empty($msg)){?>
+                                    <p><?php echo $msg;?></p>
+                                    <?php }else{?>
+                                <h4 class="title-2">Get A Quote</h4>
+                                <?php }?>
+                                <form id="contact-form" action="mail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-item input-item-name ltn__custom-icon">
+                                                <input type="text" name="name" placeholder="Enter your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-item input-item-email ltn__custom-icon">
+                                                <input type="email" name="email" placeholder="Enter email address">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-item">
+                                                <select class="nice-select" name="service">
+                                            <option>Select Service Type</option>
+                                            <option value="Property Management">Property Management </option>
+                                            <option value="Mortgage Service">Mortgage Service </option>
+                                            <option value="Consulting Service">Consulting Service</option>
+                                            <option value="Home Buying">Home Buying</option>
+                                            <option value="Home Selling">Home Selling</option>
+                                            <!-- <option>Escrow Services</option> -->
+                                        </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-item input-item-phone ltn__custom-icon">
+                                                <input type="text" name="phone" placeholder="Enter phone number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-item input-item-textarea ltn__custom-icon">
+                                        <textarea name="message" placeholder="Enter message"></textarea>
+                                    </div>
+                                    <p><label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label></p>
+                                    <div class="btn-wrapper mt-0">
+                                        <button class="btn theme-btn-1 btn-effect-1 text-uppercase" value="submit" type="submit" name="submit">Send Mail</button>
+                                    </div>
+                                    <p class="form-messege mb-0 mt-20"></p>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="ltn__call-to-4-img-1">
-                    <!-- <img src="img/bg/12.png" alt="#"> -->
-                    <img src="img/slider/21.png" alt="#">
-                </div>
-                <div class="ltn__call-to-4-img-2">
-                    <img src="img/bg/11.png" alt="#">
-                </div>
             </div>
-            <!-- CALL TO ACTION END -->
+            <!-- CONTACT MESSAGE AREA END -->
 
-            <!-- BLOG AREA START (blog-3) -->
+            <!-- GOOGLE MAP AREA START -->
+            <div class="google-map mb-120">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6880857888636!2d7.519966114928665!3d6.434096325980871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a154f653b37b%3A0x257c60e5b868dcb0!2s13%20Umuawulu%20St%2C%20Independence%20Layout%20400213%2C%20Independence%20layout!5e0!3m2!1sen!2sng!4v1661859056857!5m2!1sen!2sng"
+                    width="100%" height="100%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-            <!-- BLOG AREA END -->
-
-            <!-- BRAND LOGO AREA START -->
-
-            <!-- BRAND LOGO AREA END -->
+            </div>
+            <!-- GOOGLE MAP AREA END -->
 
             <!-- CALL TO ACTION START (call-to-action-6) -->
             <div class="ltn__call-to-action-area call-to-action-6 before-bg-bottom" data-bs-bg="img/1.jpg--">
@@ -488,7 +329,7 @@
                                     <p>We can help you realize your dream of a new home</p>
                                 </div>
                                 <div class="btn-wrapper">
-                                    <a class="btn btn-effect-3 btn-white" href="contact.html">Explore Properties <i class="icon-next"></i></a>
+                                    <a class="btn btn-effect-3 btn-white" href="contact.php">Explore Properties <i class="icon-next"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -507,6 +348,7 @@
                                     <div class="footer-logo">
                                         <div class="site-logo">
                                             <img src="img/PHOTO-2022-08-29-15-05-28.jpg" alt="Logo" width="120">
+
                                         </div>
                                     </div>
                                 </div>
@@ -582,12 +424,13 @@
                 </div>
             </footer>
             <!-- FOOTER AREA END -->
-
         </div>
         <!-- Body main wrapper end -->
 
         <!-- All JS Plugins -->
         <script src="js/plugins.js"></script>
+        <!-- Contact Form -->
+        <script src="js/contact.js"></script>
         <!-- Main JS -->
         <script src="js/main.js"></script>
         <script type="text/javascript">
@@ -614,6 +457,6 @@
 
     </body>
 
-    <!-- Mirrored from tunatheme.com/tf/html/quarter-preview/quarter/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Aug 2022 12:35:11 GMT -->
+    <!-- Mirrored from tunatheme.com/tf/html/quarter-preview/quarter/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Aug 2022 12:38:55 GMT -->
 
 </html>
